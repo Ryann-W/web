@@ -25,6 +25,7 @@ a (anchor) elements can also be used to create internal links to jump to differe
 
 To create an internal link, you assign a link's href attribute to a hash symbol # plus the value of the id attribute for the element that you want to internally link to, usually further down the page. You then need to add the same id attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
 
+<!--
 <a href="#contacts-header">Contacts</a>
 ...
 <h2 id="contacts-header">Contacts</h2>
@@ -38,4 +39,6 @@ Let's break down the example: Normal text is wrapped in the p element:
 <a> ... </a> target is an anchor tag attribute that specifies where to open the link and the value "_blank" specifies to open the link in a new tab href is an anchor tag attribute that contains the URL address of the link:
 <a href="http://freecodecamp.org"> ... </a> The text, "link to freecodecamp.org", within the a element called anchor text, will display a link to click:
 <a href=" ... ">link to freecodecamp.org</a> The final output of the example will look like this:
+
+-->
 
