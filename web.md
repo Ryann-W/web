@@ -42,3 +42,5 @@ Let's break down the example: Normal text is wrapped in the p element:
 
 -->
 
+unodered list using <ul><li></li></ul> 
+ordered list using <ol><li></li></ol>
